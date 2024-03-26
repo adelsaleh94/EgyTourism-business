@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../pictures/Bg.jpg);
+    background-size: clover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.header {
+    z-index: 22;
+}
+
+.one {
+    padding: 15px;
+}
+
+.color .one:hover {
+    background-color: #b79632;
+    color: white;
+    padding: 15px;
+    transition: .5s;
+}
+
+
+span {
+    color: #b79632;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 7vh;
+    background-color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    transition: 1s;
+}
+
+.header .home {
+    background-color: #b79632;
+    color: white;
+    padding: 15px;
+}
+
+.header img {
+    width: 10%;
+    height: 100%;
+}
+
+.header ul li a {
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+ul,
+li {
+    display: inline-block;
+    margin: 0 5px;
+    list-style: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~NavBar-Header~~~~~~~~~~ */
+.zero-parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: ; */
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.zero-container {
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.zero-container p,
+h1,
+a {
+    margin: 20px 0;
+}
+
+.zero-container a {
+    background-color: #b79632;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 30px;
+    transition: 2s;
+}
+
+.zero-container a:hover {
+    transition: 2s;
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+/* ~~~~~~~~~~~~~~~~~~One-Parent~~~~~~~~ */
+.one-parent {
+    width: 100%;
+    height: 100vh;
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left {
+
+    width: 480px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.right {
+
+    width: 600px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .img {
+    width: 10%;
+    height: 20%;
+    margin-right: 10px;
+
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text {
+
+    width: 400px;
+    height: auto;
+    margin: 13px 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~Two-Parent~~~~~~~~ */
+.two-parent {
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.one-img {
+    width: 440px;
+    height: auto;
+}
+
+select {
+    width: 10%;
+}
+
+.one-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.one-text {
+    width: 400px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~three-Parent~~~~~~~~ */
+.three-parent {
+    width: 100%;
+    height: 130vh;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.three-parent .glory {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.three-parent .glory h1 {
+    border-bottom: 1px solid white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.three-container {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: space-evenly;
+}
+
+.three-text {
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    padding: 20px;
+}
+
+.three-text img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~five-Parent~~~~~~~~ */
+.five-parent {
+    width: 100%;
+    height: 60vh;
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.five-container {
+    width: 85%;
+    height: 88%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+}
+
+.five-text {
+    width: 25%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-left: 1px solid white; */
+    /* border-right: 1px dotted white; */
+    border-radius: 30px;
+}
+
+.five-text .fa-solid {
+    font-size: 25px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.five-text img {
+    width: 50%;
+    height: 30%;
+    padding: 10px 0;
+}
+
+.facebook {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ~~~~~~~~Color-For-Icon's~~~~~~~ */
+.fa-location-dot {
+    color: brown;
+
+}
+
+.facebook .fa-brands {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.fa-facebook-f {
+    color: #1877F2;
+    transition: 2s;
+    padding: 30px;
+    line-height: 30px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+}
+
+.fa-brands:hover {
+    transition: 1.5s;
+    transform: rotate(360deg) scale(1.7);
+}
+
+.instagram {
+    color: #E4405F;
+    transition: 2s;
+}
+
+.github {
+    color: #fff;
+    transition: 2s;
+
+}
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid white;
+    flex-wrap: wrap;
+}
+
+/* ~~~~~~~~~~~~~~~Media-Cury~~~~~~~~~~~~ */
+
+/* Screen-Window>>> 935  Paxel*/
+@media (max-width: 935px) {
+    .five-parent {
+        height: 130vh;
+        width: 100%;
+        z-index: 22;
+
+    }
+
+    .five-parent .five-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .five-parent .five-container .five-text {
+        width: 75%;
+        height: 30%;
+    }
+
+    .five-parent footer {
+        width: 100%;
+        height: 7%;
+    }
+
+    .five-text p {
+        width: 50%;
+    }
+
+    /* ~~~~~~~~~~~~~~~~ */
+    .three-parent {
+        height: 300vh;
+    }
+
+    .three-container {
+        width: 80%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .three-parent .three-container .three-text {
+        width: 35%;
+        height: 10%;
+        margin: 0 3px;
+
+    }
+
+    .three-text:hover {
+        transform: none;
+    }
+}
+
+/* Screen-Window>>> 650  Paxel*/
+
+@media (max-width: 650px) {
+    .five-parent {
+        height: 100vh;
+        width: 100%;
+        z-index: 22;
+    }
+
+    .five-parent .five-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .five-parent .five-container .five-text {
+        width: 75%;
+        height: 30%;
+
+    }
+
+    .five-parent footer {
+        width: 100%;
+        height: 7%;
+    }
+
+    .five-text p {
+        width: 50%;
+        font-size: 13px;
+    }
+
+    /* ~~~~~~~~~~~~~~~~ */
+    .three-parent {
+        height: 110vh;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .three-container {
+        width: 25%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: flex;
+
+    }
+
+    .three-parent .three-container .three-text {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        transition: 1.5s;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .three-text:hover {
+        transform: none;
+    }
+
+
+}
+
+/* Screen-Window>>> 388  Paxel*/
+@media (max-width: 388px) {
+    .five-parent {
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .five-parent .five-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .five-parent .five-container .five-text {
+        width: 25%;
+        height: 30%;
+    }
+
+    .five-parent footer {
+        width: 100%;
+        height: 7%;
+    }
+
+    .five-text p {
+        width: 50%;
+        font-family: sans-serif;
+        font-style: italic;
+        color: gold;
+        font-size: small;
+    }
+
+    .header {
+        width: 100% !important;
+    }
+
+}
